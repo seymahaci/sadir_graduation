@@ -1,0 +1,91 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# PyTorch / TensorFlow checkpoints
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.onnx
+
+# YOLOv5 outputs
+runs/
+results/
+inference/
+labels/
+outputs/
+*.log
+*.txt
+
+# Dataset zips or raw data
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.7z
+*.csv
+*.json
+*.xml
+
+# Local test directories
+downloads/
+temp/
+tmp/
+__MACOSX/
+
+# IDE & OS Files
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
+
+# PyInstaller or build artifacts
+build/
+dist/
+*.spec
+
+# Application cache / compiled UI files
+*.qrc
+*.ui~
+*.bak
+*.swp
+
+# If you have secrets (like API keys)
+*.env
+.env.*
+secrets.json
+
+# Jupyter or debug outputs
+.ipynb_checkpoints/
+*.ipynb
+*.out
+*.err
+*.log
+
+# If using custom models
+detect_weapon.pt
+detect_phedo.pt
+
+# Ignore local test images
+test_images_for_phedo/
+downloaded-kids/
+gun-collect/
+gun-labeled/
+whol-adult-kid-set/
+Silah-*/
+
+yolov5/
+# System files
+*.lock
+
